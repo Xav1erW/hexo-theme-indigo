@@ -128,7 +128,9 @@
 }
 
 .container {
-    width: @contentWidth;
+    /*width: @contentWidth;*/
+    min-width: @minContentWidth;
+    max-width: @maxContentWidth;
     margin: 0 auto;
 
     &:after {
